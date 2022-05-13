@@ -32,6 +32,7 @@ public class AutomationPracticeObj {
     public void clickDressButton() throws InterruptedException {
         lnkDress.click();
         Thread.sleep(10000);
+        System.out.println("Test");
         Assert.assertEquals(driver.getTitle(),"Dresses - My Store");
     }
 
